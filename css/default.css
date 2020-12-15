@@ -1,0 +1,62 @@
+@charset "utf-8";
+* {
+	margin: 0px;
+    background-color: DodgerBlue;
+}
+button {
+	background: white;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  border: medium solid DodgerBlue;
+  border:0 none ;
+  font-family: 'Fondamento', cursive;
+}
+#question {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	color: #FFFFFF;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 10%;
+	padding-left: 10%;
+	padding-top: 20px;
+	text-align: center;
+	font-family: 'Patrick Hand SC', cursive;
+	font-size: 4em;
+}
+#choice {
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 10%;
+	padding-left: 10%;
+	padding-top: 40px;
+}
+#ans1 {
+	height: 50px;
+}
+#command {
+	text-decoration: underline;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-container > div {
+  width: 80px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  background-color: white;
+  font-family: 'Fondamento', cursive;
+  border: medium solid DodgerBlue;;
+}
+.flex-container > div:hover {
+	color: gold;
+	border: medium solid gold;
+}
+button:hover {
+color: gold;
+}
